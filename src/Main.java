@@ -12,7 +12,7 @@ public class Main {
         public static void task1 () {
             int goal = 2459000 ;
             int monthSum = 15000 ;
-            int monthCount = 1;
+            int monthCount = 1 ;
             int sum = monthSum;
             while (sum < goal) {
                 System.out.println("Месяц " + monthCount + " сумма накоплений равна " + sum + " рублей");
