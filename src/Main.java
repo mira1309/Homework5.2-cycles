@@ -1,15 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-//        task1();
-//        task2();
-//        task3();
-//        task4();
-//        task5();
-//        task6();
-//        task7();
-//        task8();
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
        }
-
         public static void task1 () {
             int goal = 2459000;
             int monthSum = 15000;
@@ -39,9 +38,7 @@ public class Main {
             int birth = 17;
             int dead = 8;
             int yearCount = 10;
-
             int year = 0;
-
             while (year < yearCount) {
                 population += (population / 1000) * (birth - dead);
                 year++;
@@ -53,9 +50,7 @@ public class Main {
             int goal = 12000000;
             double sum = 15000.00;
             int monthPercent = 7;
-
             int monthCount = 0;
-
             while (sum <= goal) {
                 sum += sum * monthPercent / 100;
                 monthCount++;
@@ -68,7 +63,6 @@ public class Main {
             int goal = 12000000;
             double sum = 15000.00;
             int monthPercent = 7;
-
             int monthCount = 0;
             while (sum <= goal) {
                 sum += sum * monthPercent / 100;
@@ -83,25 +77,22 @@ public class Main {
             double sum = 15000.00;
             int monthPercent = 7;
             int yearCount = 9;
-
             int monthCount = 0;
-
             while (monthCount < yearCount * 12) {
                 sum += sum * monthPercent / 100;
                 monthCount++;
                 if (monthCount % 6 == 0) {
                     System.out.println("Месяц " + monthCount + "cумма накоплений равна " + sum + " рублей");
                 }
-                System.out.println("Итоговая сумма: %.2f. Потребовалось месяцев: %s%n", sum, monthCount);
+                System.out.println("Итоговая сумма: " + sum + ". Потребовалось месяцев: " + monthCount);
             }
         }
 
         public static void task7 () {
             int fridayCount = 4;
             int dayMonth = 31;
-
             while (fridayCount <= dayMonth) {
-                System.out.println("Сегодня пятница, %s-е число. Необходимо подготовить отчет%n", fridayCount);
+                System.out.println("Сегодня пятница" + fridayCount + "-е число. Необходимо подготовить отчет");
                 fridayCount += 7;
             }
         }
@@ -110,7 +101,6 @@ public class Main {
             int yearBefore = 200;
             int yearAfter = 100;
             int cometPeriod = 79;
-
             for (int i = 0; i < currentYear + yearAfter; i += cometPeriod) {
                 if (i > currentYear - yearBefore) {
                     System.out.println(i);
@@ -118,4 +108,3 @@ public class Main {
             }
         }
     }
-}
