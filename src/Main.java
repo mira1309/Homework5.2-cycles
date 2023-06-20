@@ -10,7 +10,7 @@ public class Main {
         task8();
        }
         public static void task1 () {
-            int goal = 2459000;
+            int goal = 2459000 ;
             int monthSum = 15000;
             int monthCount = 1;
             int sum = monthSum;
