@@ -24,12 +24,12 @@ public class Main {
         public static void task2 () {
             int i = 1;
             while (i <= 10) {
-                System.out.println((i + " "));
+                System.out.print(i + " ");
                 i++;
             }
             System.out.println();
-            for (int j = 10; j > 8; j--) {
-                System.out.println(j + " ");
+            for (int j = 10; j > 0; j--) {
+                System.out.print(j + " ");
             }
         }
 
@@ -82,17 +82,17 @@ public class Main {
                 sum += sum * monthPercent / 100;
                 monthCount++;
                 if (monthCount % 6 == 0) {
-                    System.out.println("Месяц " + monthCount + "cумма накоплений равна " + sum + " рублей");
+                    System.out.println("Месяц " + monthCount + " cумма накоплений равна " + sum + " рублей");
                 }
-                System.out.println("Итоговая сумма: " + sum + ". Потребовалось месяцев: " + monthCount);
             }
+                System.out.println("Итоговая сумма: " + sum + ". Потребовалось месяцев: " + monthCount);
         }
 
         public static void task7 () {
             int fridayCount = 4;
             int dayMonth = 31;
             while (fridayCount <= dayMonth) {
-                System.out.println("Сегодня пятница" + fridayCount + "-е число. Необходимо подготовить отчет");
+                System.out.println("Сегодня пятница " + fridayCount + "-е число. Необходимо подготовить отчет");
                 fridayCount += 7;
             }
         }
