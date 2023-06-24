@@ -31,6 +31,7 @@ public class Main {
             for (int j = 10; j > 0; j--) {
                 System.out.print(j + " ");
             }
+            System.out.println();
         }
 
         public static void task3 () {
@@ -42,7 +43,7 @@ public class Main {
             while (year < yearCount) {
                 population += (population / 1000) * (birth - dead);
                 year++;
-                System.out.println("Год " + year + " исленность населения составляет " + population);
+                System.out.println("Год " + year + " численность населения составляет " + population);
             }
         }
 
